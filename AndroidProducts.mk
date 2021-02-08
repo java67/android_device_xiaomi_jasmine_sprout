@@ -23,9 +23,9 @@
 
 # inherit device config for Project-Awaken
 PRODUCT_MAKEFILES := \
-    $(LOCAL_DIR)/awaken_jasmine_sprout.mk
+    $(LOCAL_DIR)/dot_jasmine_sprout.mk
 
 COMMON_LUNCH_CHOICES := \
-    awaken_jasmine_sprout-user \
-    awaken_jasmine_sprout-userdebug \
-    awaken_jasmine_sprout-eng
+    dot_jasmine_sprout-user \
+    dot_jasmine_sprout-userdebug \
+    dot_jasmine_sprout-eng
